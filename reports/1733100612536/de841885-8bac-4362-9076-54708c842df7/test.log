@@ -1,0 +1,35 @@
+[2024-12-02 12:50:14] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-02 12:50:14] [1] [INFO] TEST [Web - verifyGuestCheckout] STARTED at [19:50:14 2024-12-01]
+[2024-12-02 12:50:14] [1] [INFO] Starting driver session...
+[2024-12-02 12:50:16] [1] [INFO] Driver session started.
+[2024-12-02 12:50:16] [1] [INFO] INFO: opening url 'https://magento.softwaretestingboard.com'
+[2024-12-02 12:50:24] [1] [INFO] Keys 'yoga pants' are sent to element 'searchInput'.
+[2024-12-02 12:50:27] [1] [INFO] Element 'searchButton' is clicked.
+[2024-12-02 12:50:28] [1] [INFO] Element 'productsList' is clicked.
+[2024-12-02 12:50:28] [1] [INFO] returned first but found 12 elements by locator: By.cssSelector: .product-item-link
+[2024-12-02 12:50:28] [1] [INFO] Keys '' are sent to element 'firstProduct'.
+[2024-12-02 12:50:28] [1] [INFO] returned first but found 12 elements by locator: By.cssSelector: .product-item-link
+[2024-12-02 12:50:33] [1] [INFO] Keys '' are sent to element 'firstProduct'.
+[2024-12-02 12:50:36] [1] [INFO] Element 'sizeMedium' is clicked.
+[2024-12-02 12:50:36] [1] [INFO] Element 'colorBlack' is clicked.
+[2024-12-02 12:50:36] [1] [INFO] Element 'addToCartButton' is clicked.
+[2024-12-02 12:50:41] [1] [INFO] INFO: opening url 'https://magento.softwaretestingboard.com/checkout/cart/'
+[2024-12-02 12:50:45] [1] [INFO] INFO: opening url 'https://magento.softwaretestingboard.com/checkout/cart/'
+[2024-12-02 12:50:51] [1] [INFO] Element 'proceedToCheckoutButton' is clicked.
+[2024-12-02 12:50:54] [1] [INFO] returned first but found 2 elements by locator: By.xpath: //*[@id="customer-email"]
+[2024-12-02 12:50:54] [1] [INFO] Keys 'guest1733100652231@example.com' are sent to element 'emailInput'.
+[2024-12-02 12:50:54] [1] [INFO] returned first but found 2 elements by locator: By.xpath: //*[@id="customer-email"]
+[2024-12-02 12:50:54] [1] [INFO] Keys '' are sent to element 'emailInput'.
+[2024-12-02 12:51:07] [1] [INFO] Keys 'Guest' are sent to element 'firstNameInput'.
+[2024-12-02 12:51:08] [1] [INFO] Keys 'User' are sent to element 'lastNameInput'.
+[2024-12-02 12:51:08] [1] [INFO] Keys 'Guest Company' are sent to element 'companyInput'.
+[2024-12-02 12:51:08] [1] [INFO] Keys '456 Guest St' are sent to element 'streetAddress1Input'.
+[2024-12-02 12:51:08] [1] [INFO] Keys 'Unit 789' are sent to element 'streetAddress2Input'.
+[2024-12-02 12:51:09] [1] [INFO] Keys '' are sent to element 'streetAddress3Input'.
+[2024-12-02 12:51:09] [1] [INFO] Keys 'Los Angeles' are sent to element 'cityInput'.
+[2024-12-02 12:51:09] [1] [INFO] Element clicked
+[2024-12-02 12:51:09] [1] [INFO] Keys '90001' are sent to element 'zipInput'.
+[2024-12-02 12:51:10] [1] [INFO] Keys '9876543210' are sent to element 'phoneInput'.
+[2024-12-02 12:51:10] [1] [INFO] Element 'bestWayShippingMethod' is clicked.
+[2024-12-02 12:51:11] [1] [INFO] Element 'nextButton' is clicked.
+[2024-12-02 12:51:11] [1] [INFO] TEST [Web - verifyGuestCheckout] PASSED at [19:51:11 2024-12-01]

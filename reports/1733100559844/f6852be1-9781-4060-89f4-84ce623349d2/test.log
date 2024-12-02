@@ -1,0 +1,17 @@
+[2024-12-02 12:49:21] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-02 12:49:21] [1] [INFO] TEST [Web - verifyAddToCart] STARTED at [19:49:21 2024-12-01]
+[2024-12-02 12:49:21] [1] [INFO] Starting driver session...
+[2024-12-02 12:49:23] [1] [INFO] Driver session started.
+[2024-12-02 12:49:24] [1] [INFO] INFO: opening url 'https://magento.softwaretestingboard.com'
+[2024-12-02 12:49:36] [1] [INFO] Keys 'yoga pants' are sent to element 'searchInput'.
+[2024-12-02 12:49:40] [1] [INFO] Element 'searchButton' is clicked.
+[2024-12-02 12:49:40] [1] [INFO] Element 'productsList' is clicked.
+[2024-12-02 12:49:41] [1] [INFO] returned first but found 12 elements by locator: By.cssSelector: .product-item-link
+[2024-12-02 12:49:41] [1] [INFO] Keys '' are sent to element 'firstProduct'.
+[2024-12-02 12:49:41] [1] [INFO] returned first but found 12 elements by locator: By.cssSelector: .product-item-link
+[2024-12-02 12:49:45] [1] [INFO] Keys '' are sent to element 'firstProduct'.
+[2024-12-02 12:49:48] [1] [INFO] Element 'sizeMedium' is clicked.
+[2024-12-02 12:49:48] [1] [INFO] Element 'colorBlack' is clicked.
+[2024-12-02 12:49:48] [1] [INFO] Element 'addToCartButton' is clicked.
+[2024-12-02 12:49:53] [1] [INFO] INFO: opening url 'https://magento.softwaretestingboard.com/checkout/cart/'
+[2024-12-02 12:49:56] [1] [INFO] TEST [Web - verifyAddToCart] PASSED at [19:49:56 2024-12-01]

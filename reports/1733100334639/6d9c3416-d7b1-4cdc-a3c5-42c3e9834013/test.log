@@ -1,0 +1,27 @@
+[2024-12-02 12:45:36] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-02 12:45:36] [1] [INFO] TEST [Web - verifyShippingInformation] STARTED at [19:45:36 2024-12-01]
+[2024-12-02 12:45:36] [1] [INFO] Starting driver session...
+[2024-12-02 12:45:39] [1] [INFO] Driver session started.
+[2024-12-02 12:45:39] [1] [INFO] INFO: opening url 'https://magento.softwaretestingboard.com'
+[2024-12-02 12:45:49] [1] [INFO] Keys 'yoga pants' are sent to element 'searchInput'.
+[2024-12-02 12:45:53] [1] [INFO] Element 'searchButton' is clicked.
+[2024-12-02 12:45:54] [1] [INFO] Element 'productsList' is clicked.
+[2024-12-02 12:45:54] [1] [INFO] returned first but found 12 elements by locator: By.cssSelector: .product-item-link
+[2024-12-02 12:45:54] [1] [INFO] Keys '' are sent to element 'firstProduct'.
+[2024-12-02 12:45:54] [1] [INFO] returned first but found 12 elements by locator: By.cssSelector: .product-item-link
+[2024-12-02 12:45:57] [1] [INFO] Keys '' are sent to element 'firstProduct'.
+[2024-12-02 12:46:00] [1] [INFO] Element 'sizeMedium' is clicked.
+[2024-12-02 12:46:00] [1] [INFO] Element 'colorBlack' is clicked.
+[2024-12-02 12:46:00] [1] [INFO] Element 'addToCartButton' is clicked.
+[2024-12-02 12:46:05] [1] [INFO] INFO: opening url 'https://magento.softwaretestingboard.com/checkout/cart/'
+[2024-12-02 12:46:08] [1] [INFO] INFO: opening url 'https://magento.softwaretestingboard.com/checkout/cart/'
+[2024-12-02 12:46:13] [1] [INFO] Element 'proceedToCheckoutButton' is clicked.
+[2024-12-02 12:46:16] [1] [INFO] returned first but found 2 elements by locator: By.xpath: //*[@id="customer-email"]
+[2024-12-02 12:46:16] [1] [INFO] Keys 'test@example.com' are sent to element 'emailInput'.
+[2024-12-02 12:46:16] [1] [INFO] returned first but found 2 elements by locator: By.xpath: //*[@id="customer-email"]
+[2024-12-02 12:46:16] [1] [INFO] Keys '' are sent to element 'emailInput'.
+[2024-12-02 12:46:27] [1] [INFO] Keys 'Password123' are sent to element 'passwordInput'.
+[2024-12-02 12:46:34] [1] [INFO] Element 'signInButton' is clicked.
+[2024-12-02 12:46:39] [1] [INFO] Element 'bestWayShippingMethod' is clicked.
+[2024-12-02 12:46:39] [1] [INFO] Element 'nextButton' is clicked.
+[2024-12-02 12:46:39] [1] [INFO] TEST [Web - verifyShippingInformation] PASSED at [19:46:39 2024-12-01]

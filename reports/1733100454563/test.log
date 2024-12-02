@@ -1,0 +1,20 @@
+[2024-12-02 12:47:34] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== WebDriver configuration ===========
+selenium_url=http://localhost:4444/wd/hub
+chrome_args=--window-size=1920,1080 --no-sandbox --disable-dev-shm-usage --remote-allow-origins=*
+retry_interval=5
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2024-12-02 12:47:34] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-02 12:47:36] [1] [INFO] [TestNG] Running:
+  C:\Users\muath\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[2024-12-02 12:47:36] [1] [INFO] Set thread-count=1
+[2024-12-02 12:47:36] [1] [INFO] Set data-provider-thread-count=1
+[2024-12-02 12:47:36] [1] [INFO] CARINA_CORE_VERSION: 1.3.0
+[2024-12-02 12:48:01] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-12-02 12:48:01] [1] [INFO] RESULT #1: TEST [Web - verifyGuestCheckout] FAIL [log=file://C:\Users\muath\OneDrive\Desktop\Solvd.Laba\web\Web\reports\1733100454563/97dc43fd-70a5-4fb2-8790-8af30ef9885f/test.log]
